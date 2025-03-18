@@ -197,14 +197,6 @@ INSERT INTO Grades (student_id, course_id, marks_obtained) VALUES
 
 -- 3. Apply SQL Operators (AND, OR, NOT) (Medium Weightage)
     -- • Retrieve students who have attendance below 50% AND are failing.    
-    SELECT DISTINCT s.student_id, s.name
-    FROM Students s
-    LEFT JOIN Grades g ON s.student_id = g.student_id
-    LEFT JOIN Attendance a ON s.student_id = a.student_id
-    GROUP BY s.student_id, s.name
-    HAVING AVG(g.marks_obtained) < 50  
-        AND (SUM(a.status = 'Present') * 100.0 / COUNT(a.status)) < 50;  
-
     -- • Find students who scored above 90 OR have perfect attendance.
     SELECT DISTINCT s.student_id, s.name
     FROM Students s

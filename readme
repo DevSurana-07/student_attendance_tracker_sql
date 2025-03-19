@@ -1,0 +1,40 @@
+# 📊 Student Performance Tracker - SQL Database
+
+## 📌 Overview
+This project is an SQL-based **Student Performance Tracker** that helps manage and analyze student grades, attendance, and overall performance in an educational institution.
+
+## 🏗️ Database Schema
+The SQL file includes:
+- **Tables**: Student records, subjects, grades, attendance, and more.
+- **Relationships**: Properly structured relationships between students, courses, and performance metrics.
+- **Queries**: Predefined queries to extract useful insights.
+
+## 🚀 Features
+- ✅ **Store & manage student details** (name, ID, class, etc.)
+- ✅ **Track grades** for different subjects
+- ✅ **Monitor attendance** for better analysis
+- ✅ **Generate reports** on student performance
+- ✅ **Easily extendable** for additional features
+
+## 🛠️ Setup Instructions
+1. Import the SQL file into your database:
+   ```sql
+   SOURCE students_performance_tracker.sql;
+   ```
+2. Ensure your SQL server (MySQL/PostgreSQL) is running.
+3. Modify the schema if needed for additional features.
+
+## 📌 Usage
+- Run queries to fetch student records.
+- Perform joins to get comprehensive performance insights.
+- Generate reports using SQL queries.
+
+## 🤝 Contributing
+Feel free to fork, modify, and improve the project! Contributions are always welcome. 😊
+
+## 📜 License
+This project is open-source and available under the **MIT License**.
+
+---
+🔗 Happy Coding & Data Tracking! 🚀
+
